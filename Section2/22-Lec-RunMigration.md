@@ -1,0 +1,5 @@
+# Add-Migration "Name of Migration" 
+This command basically would gather all the information that we have in the Db context and the connection string, and we'll basically create C# classes which will act as SQL tables. If we run the migration, C# will then convert to SQL and will create the tables and columns for us. This will create Migrations folder which has two files. The file with number, has two methods up and down, it is creating the tables ( difficulties, region and the walks) along with all the columns that we provide in the domain model. So its reading the Db context and its creating DB sets which are tables in sql server and all the keys that are needed as part of the relationship between tables.
+
+# Update-Database 
+this command creates the database for us. This command read the migration and connect to the database to see what is missing. This command will execute the migration file and we'll create this new database along with all the tables required and all the columns and relationships that are required. Now DB context class can now have a mapping between these tables and the domain classes that we have in the project.

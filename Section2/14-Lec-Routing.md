@@ -1,0 +1,1 @@
+Routing is the process of matching incoming HTTP request to the appropriate action methods that will handle those requests. Routing is used to map the URL of a request to a controller and then its action method.

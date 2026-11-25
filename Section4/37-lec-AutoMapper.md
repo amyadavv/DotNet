@@ -1,0 +1,6 @@
+# Automapper
+
+1. Auto mapper is a popular object to object mapping library for Dotnet applications, including ASP.NET core. It allows us to simplify the mapping process between two objects with different structures by defining mappings between their properties.
+2. With the help of auto mapper, you can create mappings between the source and destination objects in a centralized location which can be used throughout your application. This reduces the need for manually copying values between objects, and you can help to make your code more maintainable and less error prone.
+3. In ASP.NET core, auto mapper is commonly used to map between domain models and view models or DTOs. It can also be easily be integrated into your application using NuGet packages and configured using its fluent API.
+4. Auto mapper provides a lot flexibility and functionality in how mappings can be defined, including support for customer resolvers, value formatters and mapping conventions. This makes it a powerful tool for managing object to object mapping in your ASP.NET core application. 
